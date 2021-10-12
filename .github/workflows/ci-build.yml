@@ -8,6 +8,7 @@ on:
   pull_request: {}
   schedule:
     - cron: '0 3 * * *' # daily, at 3am
+  workflow_dispatch:
 
 jobs:
   test:
